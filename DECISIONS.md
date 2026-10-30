@@ -7,3 +7,5 @@
 - 2026-10-21: Company is a text field, not its own entity, to keep 3 entities and the scope small
 - 2026-10-21: Advisor accounts come only from the seed; public registration always creates a Student, so nobody can register as an advisor
 - 2026-10-25: Formally define MVP Scope (Must-have vs Nice-to-have) and stretch features (File upload and Search/filter/pagination) according to Appendix A template
+- 2026-10-28: Add low-fidelity wireframes in docs/wireframes/ covering all 8 main views
+- 2026-10-30: Course handouts and Word/PDF exports of the proposal stay outside the repo; PROPOSAL.md is the one source in git

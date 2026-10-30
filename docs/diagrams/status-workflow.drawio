@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Status workflow" id="status-workflow">
+    <mxGraphModel dx="770" dy="240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="770" pageHeight="240" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="start" value="" style="ellipse;html=1;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="20" y="52" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Applied" value="Applied" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="110" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="Interview" value="Interview" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="250" y="40" width="110" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="Offer" value="Offer" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="420" y="40" width="110" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="Accepted" value="Accepted" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="630" y="40" width="110" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="Rejected" value="Rejected" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="250" y="170" width="110" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="t0" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=#ffffff;verticalAlign=bottom;" edge="1" parent="1" source="start" target="Applied">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t1" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=#ffffff;verticalAlign=bottom;" edge="1" parent="1" source="Applied" target="Interview">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t2" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=#ffffff;verticalAlign=bottom;" edge="1" parent="1" source="Interview" target="Offer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3" value="after advisor approves" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=#ffffff;verticalAlign=bottom;" edge="1" parent="1" source="Offer" target="Accepted">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=#ffffff;verticalAlign=bottom;" edge="1" parent="1" source="Applied" target="Rejected">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=#ffffff;verticalAlign=bottom;" edge="1" parent="1" source="Interview" target="Rejected">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t6" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=#ffffff;verticalAlign=bottom;" edge="1" parent="1" source="Offer" target="Rejected">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
