@@ -9,3 +9,5 @@
 - 2026-10-25: Formally define MVP Scope (Must-have vs Nice-to-have) and stretch features (File upload and Search/filter/pagination) according to Appendix A template
 - 2026-10-28: Add low-fidelity wireframes in docs/wireframes/ covering all 8 main views
 - 2026-10-30: Course handouts and Word/PDF exports of the proposal stay outside the repo; PROPOSAL.md is the one source in git
+- 2026-11-04: No Vue Router or Pinia at initial prototype; a preview switcher in App.vue enables testing all 8 views until full-stack integration
+- 2026-11-04: Wireframes are updated to clean PNG images in docs/wireframes/ for clear screen reference
