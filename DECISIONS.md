@@ -11,3 +11,4 @@
 - 2026-10-30: Course handouts and Word/PDF exports of the proposal stay outside the repo; PROPOSAL.md is the one source in git
 - 2026-11-04: No Vue Router or Pinia at initial prototype; a preview switcher in App.vue enables testing all 8 views until full-stack integration
 - 2026-11-04: Wireframes are updated to clean PNG images in docs/wireframes/ for clear screen reference
+- 2026-11-06: Distinct milestone branches and tags (m0, m1) created to clearly delineate week 3 proposal from week 5 frontend prototype

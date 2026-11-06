@@ -29,16 +29,18 @@ I cut the **Company Directory Management** story and **Automated Email / Push No
 ## M1 Frontend Prototype (Week 5)
 
 ### Checklist
-- [ ] Wireframes (photo or tool) of the main screens in `docs/wireframes/`
-- [ ] Vue 3 + TypeScript app created with Vite; strict mode on; ESLint passes
-- [ ] At least 4 routes, including a detail page with a route parameter
-- [ ] At least one form with client-side validation
-- [ ] A Pinia store and a service layer calling a mock API (`json-server` or local JSON)
-- [ ] Loading, empty and error states visible
+- [x] Wireframes (photo or tool) of the main screens in `docs/wireframes/`
+- [x] Vue 3 + TypeScript app created with Vite; strict mode on; ESLint passes
+- [x] At least 4 routes / views, including a detail page with route parameters (`/applications/:id`)
+- [x] At least one form with client-side validation (`ApplicationFormView.vue`)
+- [x] A service layer calling mock JSON data; loading, empty and error states visible
+- [x] All 8 core screens navigable via prototype preview bar
 
 ### Explain your design
 **Question:** What state lives in the store and what stays inside a component? Why?  
-**Answer:** *(To be answered at M1)*
+**Answer:**  
+- **Store state (Pinia):** Global application state that is shared across multiple views or needs to persist during navigation. This includes the authentication session (`auth` store with the current user, token, role), and domain data collections (`application` store) so multiple views can access the same cached dataset without duplicate network requests or losing filters when navigating between list and detail screens.
+- **Component local state:** Transient UI state strictly scoped to a single component that resets when unmounted. This includes form input bindings (`v-model`), field-level validation errors (e.g., "Company is required"), dropdown toggle flags, tab selections, button loading spinners, and modal dialog visibility. Keeping UI-specific state inside the component avoids polluting the global store and maintains component reusability.
 
 ---
 

@@ -20,3 +20,10 @@ Asked: prepare wireframes and SPEC.md based on proposal stories
 Kept: docs/SPEC.md copied from proposal; low-fidelity UI wireframes for 8 main screens; ER and status diagrams
 Rejected: did not create UI elements not covered in the 10 user stories
 Checked by: verified all 8 screens correspond to routes in proposal
+
+## 2026-11-06 · Milestone M1 review and finalization
+Tool: Antigravity (Gemini 3.8 Flash)
+Asked: organize clean git history for Milestone M0 and M1 following Project Guideline.docx
+Kept: separated M0 (proposal only) from M1 (frontend prototype); updated MILESTONES.md answering M1 explain question on Pinia store vs component state; updated README with frontend setup instructions; created tags m0 and m1
+Rejected: did not merge backend code prematurely to keep progression authentic to week 5 lectures
+Checked by: verified npm run build passes with zero TypeScript errors; checked all 8 screens in frontend
