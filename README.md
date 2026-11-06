@@ -1,7 +1,7 @@
 # Student Internship Tracker
 
 Students record their internship applications; advisors follow them, comment and approve offers.  
-Individual project for Internet Programming I (I4-GIC, ITC, 2026–2027) by PUM BRUSMUNY (e20230959).
+Individual project for Internet Programming I (I4-GIC-B, ITC, 2026–2027) by PUM BRUSMUNY (e20230959).
 
 Current state: **Milestone M1**: Frontend prototype (Vue 3 + TypeScript, wireframes, static screens).
 
@@ -13,8 +13,8 @@ Current state: **Milestone M1**: Frontend prototype (Vue 3 + TypeScript, wirefra
 ## Stack
 
 - Frontend: Vue 3 + TypeScript (Vite, Vue Router, Pinia)
-- Backend: NestJS 11 (REST API)
-- Database: PostgreSQL with Prisma
+- Backend: NestJS 12 (REST API)
+- Database: PostgreSQL 18 with Prisma
 - Testing: Vitest, Jest + Supertest
 
 ## Run the frontend prototype

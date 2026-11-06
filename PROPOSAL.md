@@ -2,13 +2,13 @@
 
 **Student:** PUM BRUSMUNY · **ID:** e20230959
 
-Internet Programming I · I4-GIC · ITC · 2026–2027 · Mr. CHUN Thavorac · 21 October 2026
+Internet Programming I · I4-GIC-B · ITC · 2026–2027 · Mr. CHUN Thavorac · 21 October 2026
 
 ---
 
 ## 1. Introduction
 
-I propose to build **Student Internship Tracker**, a web application where students record their internship applications and advisors follow, comment on and approve them. It is my individual project for Internet Programming I (I4-GIC, ITC, 2026–2027).
+I propose to build **Student Internship Tracker**, a web application where students record their internship applications and advisors follow, comment on and approve them. It is my individual project for Internet Programming I (I4-GIC-B, ITC, 2026–2027), selected from the official course domain list.
 
 ### 1.1 Problem
 
@@ -38,7 +38,7 @@ The app gives each student one private list of their applications, with a clear 
 
 ### 1.4 Technology stack
 
-The stack is fixed by the course: **Vue 3 + TypeScript** (Vite, Vue Router, Pinia) for the frontend, **NestJS 11** for the backend API, and **PostgreSQL with Prisma** for the database. Tests use Vitest (frontend) and Jest + Supertest (backend).
+The stack is fixed by the course: **Vue 3 + TypeScript** (Vite, Vue Router, Pinia) for the frontend, **NestJS 12** for the backend API, and **PostgreSQL 18 with Prisma** for the database. Tests use Vitest (frontend) and Jest + Supertest (backend).
 
 ## 2. Overall description
 
@@ -56,7 +56,7 @@ Advisor accounts are created by the seed script, not by public registration. Pub
 ### 2.2 Operating environment
 
 - Runs in a current desktop browser (Chrome, Firefox, Edge); usable on a phone-width screen
-- Backend: Node.js 22 LTS or newer, NestJS 11; database: PostgreSQL 16 or newer
+- Backend: Node.js 22 LTS or newer, NestJS 12; database: PostgreSQL 18 or newer
 - Development: run locally with `npm run dev` (frontend) and `npm run start:dev` (backend)
 
 ### 2.3 Constraints
